@@ -38,6 +38,6 @@ a{
     border: 1px solid #ccc;  
 }
 
-a:hover {
+a:hover,a:focus {
     background-color: #CB904D;
 }
