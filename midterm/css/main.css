@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.3;
 }
 ol, ul {
 	list-style: none;
@@ -53,14 +53,12 @@ table {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #aad4cf;
-    font-size: 16px;
-
-
+    font-size: 16px;    
 }
 
 
 .banner {
-    width: 1035x;
+    width: 1035px;
     height: 340px;
     position: relative;
 
@@ -72,15 +70,19 @@ img {
 }
 
 .starpic {
-    margin: 5px;
+    
+}
+
+.starpic img {
+    width: 250px;
 }
 
 h1 {
     position: absolute;
-    top: 70%;
+    top: 60%;
     width: 100%;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     color: #ffff;
 }
 
@@ -99,8 +101,8 @@ nav li {
     border-right: 1px solid #333;
     width: 300px;
     text-align: center;
-    font-size: large;
-    margin: 10px;
+    font-size: 25px;
+    
     position: relative;
 
 }
@@ -116,11 +118,14 @@ nav li:last-child {
     border-right: none;
 }
 
+.content{
+    padding: 0 10px 0 10px;
+}
 
 
 ul {
     list-style-type: disc;
-    padding-left: 20px;
+    padding-left: 25px;
     margin: 10px;
 }
 
@@ -137,7 +142,7 @@ article img {
     width: 150px;
     height: auto;
     float: left;
-    margin-right: 1rem;
+    margin: 1rem;
 }
 
 /* I need to put this near the image somewhere after the menu bar */
@@ -168,6 +173,7 @@ form{
     padding: 10px;
     margin-bottom: 10px;
     border: grey;
+    resize: none;
 }
 
 .rchoices input {
@@ -175,7 +181,23 @@ form{
 
 }
 
+.pdetails, .rchoices {
+    margin:10px 20px 10px 20px;
+}
+
+form .button input{
+    height: 100%;
+    border: 1 solid black;
+    font-size: 18px;
+    background: none;
+    margin:10px 20px;
+}
+
+form .button input:hover {
+    background: #FFFF;
+  }
 
 footer {
     text-align: right;
+    padding: 10px;
 }
