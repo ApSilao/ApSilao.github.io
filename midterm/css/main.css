@@ -203,19 +203,17 @@ textarea {
 
 }
 
-.pdetails,
-.rchoices {
-    margin: 10px 20px 10px 20px;
+.pdetails,.rchoices {
+    margin: 10px 10px 10px 20px;
 }
 
 
 /* form button has a transparent design */
 form .button input {
-    height: 100%;
     border: 1px solid black;
     font-size: 18px;
     background: none;
-    margin: 10px 20px;
+    margin: 10px 20px;;
 }
 
 form .button input:hover {
