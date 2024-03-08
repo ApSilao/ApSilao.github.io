@@ -53,10 +53,18 @@ table {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #aad4cf;
-    font-size: 15.3px;    
+    font-size: 15.3px;
 }
 
 
+/* covers area for the page  */
+.wrapper {
+    background-color: #d4e9e7;
+    width: 1030px;
+    margin: auto;
+}
+
+/* contains main title and image banner */
 .banner {
     width: 1035px;
     height: 340px;
@@ -64,20 +72,13 @@ body {
 
 }
 
-.menu{
-    margin-bottom: 20px;
-}
-
-
+/* main image for banner measure the width */
 img {
     width: 1031px;
 
 }
 
-.starpic img {
-    width: 250px;
-}
-
+/* text in banner */
 h1 {
     position: absolute;
     top: 60%;
@@ -87,19 +88,7 @@ h1 {
     color: #ffff;
 }
 
-h2 {
-    font-size: 30px;
-}
-
-h3{
-    font-size: 25px;
-}
-
-p {
-    margin-bottom: 20px;
-}
-
-
+/* 3 menu items , evenly balanced with border as separation */
 nav li {
     display: inline-block;
     border-right: 1px solid #333;
@@ -122,25 +111,49 @@ nav li:last-child {
     border-right: none;
 }
 
-.content{
+
+.menu {
+    margin-bottom: 20px;
+}
+
+
+/* starfish profile image  */
+.starpic img {
+    width: 250px;
+}
+
+
+/* used for 1st article- this is larger than the next headers */
+h2 {
+    font-size: 30px;
+}
+
+
+/* after the main article a little smaller than h2 size */
+h3 {
+    font-size: 25px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+
+
+.content {
     padding: 0 10px 0 10px;
 }
 
 
+/* since reset removed style add style disc in ul here */
 ul {
     list-style-type: disc;
     padding-left: 17px;
     line-height: 1;
-    
+
 }
 
 
-/* covers area for the page  */
-.wrapper {
-    background-color: #d4e9e7;
-    width: 1030px;
-    margin: auto;
-}
 
 
 article img {
@@ -157,25 +170,27 @@ article img {
     clear: both;
 
 }
-.artcontent{
-    margin:0;
+
+.artcontent {
+    margin: 0;
 }
 
 /* form is divided in multiple divs for targetting */
-.mform {    
+.mform {
     margin: 10px 0;
-    
+
 }
 
-form{
+form {
     border: 1px solid #000;
-    
+
 }
 
 
 /* the form has simple clean details and send button is with a border and a transparent box */
 
-.pdetails input,textarea{
+.pdetails input,
+textarea {
     width: 99%;
     padding: 10px;
     margin-bottom: 10px;
@@ -188,22 +203,27 @@ form{
 
 }
 
-.pdetails, .rchoices {
-    margin:10px 20px 10px 20px;
+.pdetails,
+.rchoices {
+    margin: 10px 20px 10px 20px;
 }
 
-form .button input{
+
+/* form button has a transparent design */
+form .button input {
     height: 100%;
     border: 1px solid black;
     font-size: 18px;
     background: none;
-    margin:10px 20px;
+    margin: 10px 20px;
 }
 
 form .button input:hover {
     background: #FFFF;
-  }
+}
 
+
+/* footer has a little margin right */
 footer {
     text-align: right;
     padding: 10px;
