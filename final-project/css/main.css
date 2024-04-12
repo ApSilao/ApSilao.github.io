@@ -129,11 +129,6 @@ h2 {
     background-image: url("../images/main-banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 0;
-
-
-
-
 }
 
 #p-banner {
@@ -157,9 +152,9 @@ h2 {
 .connect-button {
     background-color: #c78c06;
     color: #313131;
-
+    padding: 30px;
     text-decoration: none;
-    border: none;
+    
 }
 
 .connect-button:hover {
@@ -184,8 +179,29 @@ h2 {
     align-items: flex-start;
     text-align: left;
     padding: 10px;
-    ;
+    
 }
+
+#services-grp{
+    padding: 20px;
+}
+
+.services-btn{
+    background-color:#313131;
+    color: #FFF;
+    padding: 30px;
+    text-decoration: none;
+    
+}
+
+.connect-button:hover {
+    background-color:#c78c06;
+    color: #313131;
+}
+
+
+
+
 
 
 .pic {
