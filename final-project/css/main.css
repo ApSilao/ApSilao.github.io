@@ -40,7 +40,7 @@ html {
 .wrapper {
     max-width: 1200px;
     margin: auto;
-   
+
 }
 
 body {
@@ -80,20 +80,21 @@ h2 {
 .navigation {
     display: flex;
     flex-direction: column;
-    flex-grow: 1; 
+    flex-grow: 1;
     margin: 10px;
 }
 
 .navigation a {
     display: block;
     padding: 1em;
-    color: white;
+    color: #c78c06;
     text-decoration: none;
     text-align: center;
 }
 
 .navigation a:hover {
     background: #c78c06;
+    color: #313131;
 }
 
 
@@ -104,21 +105,23 @@ h2 {
     align-items: center;
 }
 
-.search-form input{
+.search-form input {
     padding: 10px;
-    
+
     width: 100%;
 }
 
 .search-form button {
     padding: 10px;
-    background-color:#c78c06;
-    border: none;
+    background-color: #313131;
     font-size: 16px;
+    color: #c78c06;
+    border: 1px solid #c78c06;
 }
 
 .search-form button:hover {
-    background-color:#FFF;;
+    background-color: #c78c06;
+    color:#313131;
 }
 
 
@@ -127,18 +130,19 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0;
-    
-    
-    
-    
+
+
+
+
 }
 
-#p-banner{
-    margin: 20px;;
+#p-banner {
+    margin: 20px;
+    ;
 }
 
 .bannertxt {
-    
+
     background-color: rgba(25, 31, 52, 0.8);
     color: #FFF;
 
@@ -146,14 +150,14 @@ h2 {
 
 
 
-.banner-content{
+.banner-content {
     margin: 10px;
 }
 
 .connect-button {
     background-color: #c78c06;
     color: #313131;
-    
+
     text-decoration: none;
     border: none;
 }
@@ -170,7 +174,7 @@ h2 {
 
 #about {
     background-color: #ffe6ac;
-    
+
 }
 
 
@@ -179,7 +183,8 @@ h2 {
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-    padding: 10px;;
+    padding: 10px;
+    ;
 }
 
 
