@@ -1,0 +1,97 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display:block;}body{line-height:1;}ol, ul{list-style:none;}blockquote, q{quotes:none;}blockquote:before, blockquote:after,
+q:before, q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}
+
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; }
+
+/* ########################
+Main code starts here 
+########################*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    /* background-color: ; */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* change bg color */
+.navbar {
+    background-color: #313131;
+}
+
+/* change hover color on ul a items */
+.navbar ul li a {
+    display: block;
+    color: #c78c06;
+    text-decoration: none;
+    transition: color 0.3s;
+    width: 100%;
+    text-align: center;
+    /* Optional: Center-align text within the anchor */
+}
+
+.navbar ul li a:hover {
+    color: #313131;
+    background-color: #c78c06;
+    /* Background color on hover */
+}
+
+.banner {
+    background-image: url('./images/main-banner.jpg');
+    /* Additional background properties */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/* After 760 changes here */
+@media screen and (min-width: 760px) {
+    .navbar ul {
+        display: flex;
+        /* Center align horizontally */
+        justify-content: center;
+        /* Center align vertically */
+        align-items: center;
+    }
+
+    .navbar ul li {
+        /* Adjust margin as needed */
+        margin: 0 20px;
+    }
+}
