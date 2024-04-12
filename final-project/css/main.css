@@ -45,6 +45,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
 
 }
 
@@ -182,7 +183,10 @@ h2 {
     
 }
 
-#services-grp{
+
+/* services */
+
+#services-grp,#team-grp,#contact-grp,#hours-grp,#location-grp{
     padding: 20px;
 }
 
@@ -199,6 +203,21 @@ h2 {
     color: #313131;
 }
 
+
+/* vision */
+.vision-btn{
+    background-color: rgba(25, 31, 52, 0.8);
+    color: #FFF;
+    padding: 30px;
+    text-decoration: none;
+    border: 2px solid #a66b00;
+    
+}
+
+.connect-button:hover {
+    background-color:#c78c06;
+    color: #313131;
+}
 
 
 
@@ -223,6 +242,7 @@ h2 {
     background-image: url("../images/vision.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    color: #FFF;
 }
 
 .gtxt {
@@ -264,6 +284,7 @@ hr {
 
 .map iframe {
     width: 100%;
+    padding: 20px;
 }
 
 
@@ -271,6 +292,14 @@ hr {
 .dfooter {
     background-color: #313131;
     color: #c78c06;
+    font-size: 14px;
+    padding: 30px;
+    
+}
+.dfooter a{
+    text-decoration: none;
+    color: inherit;
+    
 }
 
 
