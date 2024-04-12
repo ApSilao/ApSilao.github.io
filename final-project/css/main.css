@@ -40,7 +40,7 @@ html {
 .wrapper {
     max-width: 1200px;
     margin: auto;
-    /* background-color: ; */
+   
 }
 
 body {
@@ -70,38 +70,96 @@ h2 {
 
 
 
-/* change bg color */
 .navbar {
     background-color: #313131;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* change hover color on ul a items */
-.navbar ul li a {
+.navigation {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+    margin: 10px;
+}
+
+.navigation a {
     display: block;
-    color: #c78c06;
+    padding: 1em;
+    color: white;
     text-decoration: none;
-    transition: color 0.3s;
-    width: 100%;
     text-align: center;
-    /* Optional: Center-align text within the anchor */
 }
 
-.navbar ul li a:hover {
-    color: #313131;
-    background-color: #c78c06;
-    /* Background color on hover */
+.navigation a:hover {
+    background: #c78c06;
 }
+
+
+
+/* search form here */
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input{
+    padding: 10px;
+    
+    width: 100%;
+}
+
+.search-form button {
+    padding: 10px;
+    background-color:#c78c06;
+    border: none;
+    font-size: 16px;
+}
+
+.search-form button:hover {
+    background-color:#FFF;;
+}
+
 
 .banner {
     background-image: url("../images/main-banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 100px 0;
+    
+    
+    
+    
+}
+
+#p-banner{
+    margin: 20px;;
 }
 
 .bannertxt {
-    background-color: rgba(128, 128, 128, 0.7);
+    
+    background-color: rgba(25, 31, 52, 0.8);
     color: #FFF;
 
+}
+
+
+
+.banner-content{
+    margin: 10px;
+}
+
+.connect-button {
+    background-color: #c78c06;
+    color: #313131;
+    
+    text-decoration: none;
+    border: none;
+}
+
+.connect-button:hover {
+    background-color: #a66b00;
 }
 
 
@@ -109,8 +167,10 @@ h2 {
 
 
 
+
 #about {
     background-color: #ffe6ac;
+    
 }
 
 
@@ -119,6 +179,7 @@ h2 {
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+    padding: 10px;;
 }
 
 
@@ -184,6 +245,8 @@ hr {
     width: 100%;
 }
 
+
+
 .dfooter {
     background-color: #313131;
     color: #c78c06;
@@ -201,7 +264,6 @@ hr {
     }
 
     .navbar ul li {
-        /* Adjust margin as needed */
         margin: 0 20px;
     }
 }

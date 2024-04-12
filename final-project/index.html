@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
     <!-- css link -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -24,7 +25,7 @@
                 <!-- nav will have max width in css and margin 0 auto-->
                 <!-- will use flex later for the navbar ul in css  -->
                 <!-- nav will use internal link/jump link as this is a single page website -->
-                <ul>
+                <ul class="navigation">
                     <li><a href="#"><img src="images/logo.png" class="logo" alt="Logo"></a></li>
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About Us</a></li>
@@ -32,9 +33,9 @@
                     <li><a href="#team">Team</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li>
-                        <form class="searchf" action="/search" method="get">
+                        <form class="search-form" action="/search" method="get">
                             <input type="text" name="q" placeholder="Search">
-                            <button type="submit" class="search-button">Search</button>
+                            <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
                         </form>
                     </li>
                 </ul>
@@ -51,12 +52,12 @@
 
                     <div class="bannertxt">
                         <h1>Welcome to Three Star Media</h1>
-                        <p>Banner text here for content Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <p id="p-banner">Banner text here for content Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Architecto
                             laboriosam fuga ducimus iste non, quod, illum sed nulla similique fugiat deleniti ipsa ipsam
                             delectus?
                             Minus iure facere harum quos aliquam..</p>
-                        <a href="#" class="connect-button">Connect with us</a>
+                        <a href="#" class="connect-button">Connect with us   &#9654;</a>
                     </div>
 
 
@@ -296,7 +297,7 @@
                     <div class="location">
                         <h3>Location</h3>
                     </div>
-
+                    <br>
                     <div class="map">
                         <!-- Add Google Map here -->
                         <iframe
@@ -308,6 +309,7 @@
                     </div>
 
                 </div>
+                <br>
             </section>
             <!-- Section: Footer -->
             <section class="section" id="footer">
