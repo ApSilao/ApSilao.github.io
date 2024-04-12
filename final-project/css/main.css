@@ -132,14 +132,21 @@ h2{
 }
 
 
-.banner {
-    background-image: url("../images/main-banner.jpg");
+.vision {
+    background-image: url("../images/vision.jpg");
     background-repeat: no-repeat;
    background-size: cover;
 }
 
+.gtxt{
+    background-color: #ffe6ac;
+}
 
-
+hr{
+    
+    border-width: 1px 0;
+    border-color:#c78c06;
+}
 
 
 
