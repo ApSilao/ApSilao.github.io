@@ -127,6 +127,25 @@ h2{
 }
 
 
+.card{
+    background-color: #ffe6ac;
+}
+
+
+.banner {
+    background-image: url("../images/main-banner.jpg");
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+
+
+
+
+
+
+
 
 
 
