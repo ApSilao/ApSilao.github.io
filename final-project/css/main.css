@@ -40,6 +40,7 @@ html {
 .wrapper {
     max-width: 1200px;
     margin: auto;
+    
 
 }
 
@@ -137,17 +138,16 @@ h2 {
     ;
 }
 
+.banner-content{
+    background-color: rgba(25, 31, 52, 0.8);
+}
 .bannertxt {
 
     background-color: rgba(25, 31, 52, 0.8);
     color: #FFF;
+    display: block;
+    padding: 20px 0;
 
-}
-
-
-
-.banner-content {
-    margin: 10px;
 }
 
 .connect-button {
@@ -245,7 +245,14 @@ h2 {
     color: #FFF;
 }
 
+
+
 .gtxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
     background-color: #ffe6ac;
 }
 
@@ -265,6 +272,21 @@ hr {
     width: 100%;
     box-sizing: border-box;
 }
+
+/* form button has a transparent design */
+#send-btn {
+    border: 1px solid #a66b00;
+    font-size: 18px;
+    background:#313131;
+    color: #c78c06;
+    margin-top: 10px;
+    width: auto;
+    
+}
+send-btn:hover {
+    background: #FFFF;
+}
+
 
 
 .hours-table table {
@@ -301,6 +323,27 @@ hr {
     color: inherit;
     
 }
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content {
+    text-align: left;
+    color: #fff;
+}
+
+.bannertxt {
+    max-width: 800px;
+    padding: 20px;
+}
+
 
 
 /* After 760 changes here */
