@@ -1,284 +1,456 @@
-
 /* Reset CSS */
 /* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
- }
- /* HTML5 display-role reset for older browsers */
- article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
- }
- body {
+}
+
+body {
     line-height: 1;
- }
- ol, ul {
+}
+
+ol,
+ul {
     list-style: none;
- }
- blockquote, q {
+}
+
+blockquote,
+q {
     quotes: none;
- }
- blockquote:before, blockquote:after, q:before, q:after {
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: '';
     content: none;
- }
- table {
+}
+
+table {
     border-collapse: collapse;
     border-spacing: 0;
- }
- /* Main Code Starts Here */
- 
- *,
- *::before,
- *::after {
+}
+
+/* Main Code Starts Here */
+
+*,
+*::before,
+*::after {
     box-sizing: border-box;
- }
- html {
+}
+
+html {
     font-size: 18px;
- }
- .wrapper {
+}
+
+.wrapper {
     max-width: 1200px;
     margin: auto;
- }
- body {
+}
+
+body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
- }
- /* Heading Styles */
- h1, h2, h3, h4 {
+}
+
+/* Heading Styles */
+h1,
+h2,
+h3,
+h4 {
     font-weight: 900;
     padding: 10px;
- }
- h1 {
+}
+
+h1 {
     font-size: 3rem;
- }
- h2 {
+}
+
+h2 {
     font-size: 2rem;
- }
- h3 {
+}
+
+h3 {
     font-size: 1.5rem;
- }
- h4 {
+}
+
+h4 {
     font-size: 1.2rem;
- }
- /* Paragraph styles here*/
- p {
+}
+
+/* Paragraph styles here*/
+p {
     font-size: 14px;
     padding: 10px;
- }
- 
- /* Navbar styles here*/
- .navbar {
+}
+
+/* Navbar styles here*/
+.navbar {
     background-color: #313131;
     display: flex;
     justify-content: space-between;
     align-items: center;
- }
- .navigation {
+}
+
+.navigation {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     margin: 10px;
- }
- .navigation a {
+}
+
+.navigation a {
     display: block;
     padding: 1em;
     color: #c78c06;
     text-decoration: none;
     text-align: center;
- }
- .navigation a logo{
+}
+
+.navigation a logo {
     text-align: left;
- }
- .navigation a:hover {
+}
+
+.navigation a:hover {
     background: #c78c06;
     color: #313131;
- }
- /* Search Form styles here */
- .search-form {
+}
+
+/* Search Form styles here */
+.search-form {
     display: flex;
     align-items: center;
- }
- .search-form input {
+}
+
+.search-form input {
     padding: 10px;
     width: 100%;
- }
- .search-form button {
+}
+
+.search-form button {
     padding: 10px;
     background-color: #313131;
     font-size: 16px;
     color: #c78c06;
     border: 1px solid #c78c06;
- }
- .search-form button:hover {
+}
+
+.search-form button:hover {
     background-color: #c78c06;
     color: #313131;
- }
- /* Banner styles here */
- .banner {
+}
+
+/* Banner styles here */
+.banner {
     background-image: url("../images/main-banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 0;
- }
- .bannertxt {
+}
+
+.bannertxt {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 20px;
     color: #fff;
- }
- .banner-content {
+}
+
+.banner-content {
     background-color: rgba(25, 31, 52, 0.8);
- }
- .connect-button {
+}
+
+.connect-button {
     background-color: #c78c06;
     color: #313131;
     padding: 30px;
     text-decoration: none;
- }
- .connect-button:hover {
+}
+
+.connect-button:hover {
     background-color: #a66b00;
- }
- /* Main Sections styles here */
- 
- 
- /* About Section styles here */
- #about {
+}
+
+/* Main Sections styles here */
+
+
+/* About Section styles here */
+#about {
     background-color: #ffe6ac;
- }
- #about-content {
+}
+
+#about-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
     padding: 10px;
- }
- /* Horizontal Rule Styles here */
- hr {
+}
+
+/* Horizontal Rule Styles here */
+hr {
     border-width: 1px 0;
     border-color: #c78c06;
     color: #c78c06;
     width: 95%;
- }
- /* Services group, Team, Contact, Hours, Location Sections styles here */
- #services-grp, #team-grp, #contact-grp, #hours-grp, #location-grp {
+}
+
+/* Services group, Team, Contact, Hours, Location Sections styles here */
+#services-grp,
+#team-grp,
+#contact-grp,
+#hours-grp,
+#location-grp {
     padding: 20px;
- }
- .services-btn {
+}
+
+.services-btn {
     background-color: #313131;
     color: #fff;
     padding: 30px;
     text-decoration: none;
- }
- .services-btn:hover {
+}
+
+.services-btn:hover {
     background-color: #c78c06;
     color: #313131;
- }
- /* Vision Section styles here */
- .vision-btn {
+}
+
+/* Vision Section styles here */
+.vision-btn {
     background-color: rgba(25, 31, 52, 0.8);
     color: #fff;
     padding: 30px;
     text-decoration: none;
     border: 2px solid #a66b00;
- }
- .vision-btn:hover {
+}
+
+.vision-btn:hover {
     background-color: #c78c06;
     color: #313131;
- }
- /* Picture width */
- .pic {
+}
+
+/* Picture width */
+.pic {
     width: 100%;
- }
- /* Text About grp styles here */
- .txt-abt {
+}
+
+/* Text About grp styles here */
+.txt-abt {
     max-width: 800px;
     margin-top: 20px;
- }
- /* Cards styles here */
- .card {
+}
+
+/* Cards styles here */
+.card {
     background-color: #ffe6ac;
- }
- /* Vision Section Background Image Styles here*/
- .vision {
+}
+
+/* Vision Section Background Image Styles here*/
+.vision {
     background-image: url("../images/vision.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
- }
- /* Gtxt group Text styles here */
- .gtxt {
+}
+
+/* Gtxt group Text styles here */
+.gtxt {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 20px;
     background-color: #ffe6ac;
- }
- .team-bg {
+}
+
+.team-bg {
     background-color: #ffe6ac;
- }
- /* Contact Form styles here */
- #contact-form {
+}
+
+/* Contact Form styles here */
+#contact-form {
     font-size: 14px;
- }
- .form input,
- .form textarea {
+}
+
+.form input,
+.form textarea {
     width: 100%;
     box-sizing: border-box;
- }
- /* Form Button styles here */
- #send-btn {
+}
+
+/* Form Button styles here */
+#send-btn {
     border: 1px solid #a66b00;
     font-size: 18px;
     background: #313131;
     color: #c78c06;
     margin-top: 10px;
     width: auto;
- }
- #send-btn:hover {
+}
+
+#send-btn:hover {
     background: #fff;
- }
- /* Hours Table styles here */
- .hours-table table {
+}
+
+/* Hours Table styles here */
+.hours-table table {
     width: 100%;
     font-size: 14px;
- }
- .hours-table table th,
- .hours-table table td {
+}
+
+.hours-table table th,
+.hours-table table td {
     border: 1px solid #000;
     padding: 8px;
- }
- .hours-table table thead tr:first-child th {
+}
+
+.hours-table table thead tr:first-child th {
     background-color: #ffe6ac;
- }
- /* Map styles here */
- .map iframe {
+}
+
+/* Map styles here */
+.map iframe {
     width: 100%;
     padding: 20px;
- }
- /* Footer styles here */
- .dfooter {
+}
+
+/* Footer styles here */
+.dfooter {
     background-color: #313131;
     color: #c78c06;
     font-size: 14px;
     padding: 30px;
- }
- .dfooter a {
+}
+
+.dfooter a {
     text-decoration: none;
     color: inherit;
- }
- /* Media Query for Screen Width Greater than 760px below*/
- @media screen and (min-width: 760px) {
+}
+
+/* Media Query for Screen Width Greater than 760px below*/
+@media screen and (min-width: 760px) {
     .navigation {
-       flex-direction: row;
-       justify-content:center;
-    align-items: center;      
-     }
- }
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #about-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    
+    .txt-abt,
+    .img-abt {
+        width: 100%; 
+    }
+    
+
+
+  
+
+}
