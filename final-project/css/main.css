@@ -444,13 +444,37 @@ hr {
         gap: 20px;
     }
     
-    .txt-abt,
-    .img-abt {
+    .img-abt,
+    .txt-abt {
         width: 100%; 
     }
+
+    .flex-container {
+        display: flex;
+    }
     
+    .gpic-one,
+    .gtxt-1 {
+        flex: 1; 
+    }
+    
+ 
 
-
-  
+    .team-bg .tmember2 {
+        display: flex;
+    }
+    
+    .gtxt-2,
+    .gpic-two {
+        flex: 1;
+    }
+    
+    .gtxt-2 {
+        order: 1;
+    }
+    
+    .gpic-two {
+        order: 2;
+    }
 
 }
