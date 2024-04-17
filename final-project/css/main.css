@@ -140,7 +140,7 @@ table {
 }
 
 html {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .wrapper {
@@ -305,6 +305,9 @@ hr {
     padding: 20px;
 }
 
+#services-title{
+    margin-left: 135px;
+}
 .services-btn {
     background-color: #313131;
     color: #fff;
@@ -431,6 +434,7 @@ hr {
 .dfooter a {
     text-decoration: none;
     color: inherit;
+    
 }
 
 /* Media Query for Screen Width Greater than 760px below*/
@@ -441,6 +445,12 @@ hr {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+
+
+    .banner-content {
+        padding: 40px; 
+        margin: 0 100px;
     }
 
 
@@ -547,8 +557,8 @@ hr {
         grid-area: g3;
     }
 
-    #contact {
-        margin-bottom: -20px;
-    }
+    .hours-table{
+        padding-bottom: -1000;
 
+    }
 }
