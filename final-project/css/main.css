@@ -374,7 +374,8 @@ Media Query for Screen Width Greater than 760px below
     }
 
     /* services css here */
-
+    /* layout should be 2 rows 8 per row 
+    as per video recording tip */
     .cards {
         display: grid;
         grid-template-rows: repeat(2, auto);
@@ -432,6 +433,7 @@ Media Query for Screen Width Greater than 760px below
         grid-template-areas:
             "g1 g3"
             "g2 g2";
+        margin-bottom: -170px;
 
     }
 
@@ -447,5 +449,6 @@ Media Query for Screen Width Greater than 760px below
         grid-area: g3;
     }
 
+  
    
 }
