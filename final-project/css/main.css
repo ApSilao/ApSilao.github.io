@@ -1,137 +1,30 @@
-/* Reset CSS */
-/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display:block;}body{line-height:1;}ol, ul{list-style:none;}blockquote, q{quotes:none;}blockquote:before, blockquote:after,
+q:before, q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; }
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
 
-body {
-    line-height: 1;
-}
 
-ol,
-ul {
-    list-style: none;
-}
-
-blockquote,
-q {
-    quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-/* Main Code Starts Here */
+/* 
+######################
+Main Code Starts Here 
+######################
+*/
 
 *,
 *::before,
@@ -305,9 +198,10 @@ hr {
     padding: 20px;
 }
 
-#services-title{
+#services-title {
     margin-left: 135px;
 }
+
 .services-btn {
     background-color: #313131;
     color: #fff;
@@ -434,12 +328,12 @@ hr {
 .dfooter a {
     text-decoration: none;
     color: inherit;
-    
+
 }
 
 /* Media Query for Screen Width Greater than 760px below*/
 @media screen and (min-width: 760px) {
-    
+
     /* nav media query css here */
     .navigation {
         flex-direction: row;
@@ -449,7 +343,7 @@ hr {
 
 
     .banner-content {
-        padding: 40px; 
+        padding: 40px;
         margin: 0 100px;
     }
 
@@ -460,21 +354,21 @@ hr {
         grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
-    
+
     .img-abt,
     .txt-abt {
-        width: 100%; 
+        width: 100%;
     }
 
     .flex-container {
         display: flex;
     }
-    
+
     .gpic-one,
     .gtxt-1 {
-        flex: 1; 
+        flex: 1;
     }
-    
+
     /* services css here */
 
     .cards {
@@ -483,57 +377,49 @@ hr {
         grid-template-columns: repeat(8, 1fr);
         gap: 10px;
         grid-template-areas:
-        ". c1 c1 c1 c2 c2 c2 ."
-        ". c3 c3 c4 c4 c5 c5 .";
+            ". c1 c1 c1 c2 c2 c2 ."
+            ". c3 c3 c4 c4 c5 c5 .";
     }
-    
+
     .cards .digi {
         grid-area: c1;
     }
-    
+
     .cards .mrket {
         grid-area: c2;
     }
-    
+
     .cards .vprod {
         grid-area: c3;
     }
-    
+
     .cards .wdev {
         grid-area: c4;
     }
-    
+
     .cards .prnt {
         grid-area: c5;
     }
 
-
-
-
-
-    
-
-
- 
     /* Team CSS layout here */
     .team-bg .tmember2 {
         display: flex;
     }
-    
+
     .gtxt-2,
     .gpic-two {
         flex: 1;
     }
-    
+
     .gtxt-2 {
         order: 1;
     }
-    
+
     .gpic-two {
         order: 2;
     }
 
-/* 
+    /* 
     contact layout css here */
     .contact-outer {
         display: grid;
@@ -542,22 +428,22 @@ hr {
         grid-template-areas:
             "g1 g3"
             "g2 g2";
-        
+
     }
-    
+
     .form {
         grid-area: g1;
     }
-    
+
     .hours-table {
         grid-area: g2;
     }
-    
+
     .location-grp {
         grid-area: g3;
     }
 
-    .hours-table{
+    .hours-table {
         padding-bottom: -1000;
 
     }
