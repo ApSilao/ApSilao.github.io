@@ -372,6 +372,7 @@ hr {
 /* Contact Form styles here */
 #contact-form {
     font-size: 14px;
+    padding: 20px;
 }
 
 .form input,
@@ -396,8 +397,11 @@ hr {
 
 /* Hours Table styles here */
 .hours-table table {
-    width: 100%;
+    width: 95%;
     font-size: 14px;
+    padding: 20px;
+    margin: auto;
+
 }
 
 .hours-table table th,
@@ -431,6 +435,8 @@ hr {
 
 /* Media Query for Screen Width Greater than 760px below*/
 @media screen and (min-width: 760px) {
+    
+    /* nav media query css here */
     .navigation {
         flex-direction: row;
         justify-content: center;
@@ -438,6 +444,7 @@ hr {
     }
 
 
+    /* about layout for css here */
     #about-content {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -458,8 +465,47 @@ hr {
         flex: 1; 
     }
     
- 
+    /* services css here */
 
+    .cards {
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: repeat(8, 1fr);
+        gap: 10px;
+        grid-template-areas:
+        ". c1 c1 c1 c2 c2 c2 ."
+        ". c3 c3 c4 c4 c5 c5 .";
+    }
+    
+    .cards .digi {
+        grid-area: c1;
+    }
+    
+    .cards .mrket {
+        grid-area: c2;
+    }
+    
+    .cards .vprod {
+        grid-area: c3;
+    }
+    
+    .cards .wdev {
+        grid-area: c4;
+    }
+    
+    .cards .prnt {
+        grid-area: c5;
+    }
+
+
+
+
+
+    
+
+
+ 
+    /* Team CSS layout here */
     .team-bg .tmember2 {
         display: flex;
     }
@@ -475,6 +521,34 @@ hr {
     
     .gpic-two {
         order: 2;
+    }
+
+/* 
+    contact layout css here */
+    .contact-outer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+            "g1 g3"
+            "g2 g2";
+        
+    }
+    
+    .form {
+        grid-area: g1;
+    }
+    
+    .hours-table {
+        grid-area: g2;
+    }
+    
+    .location-grp {
+        grid-area: g3;
+    }
+
+    #contact {
+        margin-bottom: -20px;
     }
 
 }
