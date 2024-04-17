@@ -46,7 +46,7 @@ body {
     line-height: 1.5;
 }
 
-/* Heading Styles */
+/* Heading  */
 h1,
 h2,
 h3,
@@ -71,13 +71,13 @@ h4 {
     font-size: 1.2rem;
 }
 
-/* Paragraph styles here*/
+/* Paragraph  here*/
 p {
     font-size: 14px;
     padding: 10px;
 }
 
-/* Navbar styles here*/
+/* Navbar  here*/
 .navbar {
     background-color: #313131;
     display: flex;
@@ -109,7 +109,7 @@ p {
     color: #313131;
 }
 
-/* Search Form styles here */
+/* Search Form  here */
 .search-form {
     display: flex;
     align-items: center;
@@ -133,7 +133,7 @@ p {
     color: #313131;
 }
 
-/* Banner styles here */
+/* Banner  here */
 .banner {
     background-image: url("../images/main-banner.jpg");
     background-repeat: no-repeat;
@@ -165,10 +165,10 @@ p {
     background-color: #a66b00;
 }
 
-/* Main Sections styles here */
+/* Main Sections  here */
 
 
-/* About Section styles here */
+/* About Section  here */
 #about {
     background-color: #ffe6ac;
 }
@@ -181,7 +181,7 @@ p {
     padding: 10px;
 }
 
-/* Horizontal Rule Styles here */
+/* Horizontal Rule  here */
 hr {
     border-width: 1px 0;
     border-color: #c78c06;
@@ -189,7 +189,7 @@ hr {
     width: 95%;
 }
 
-/* Services group, Team, Contact, Hours, Location Sections styles here */
+/* Services group, Team, Contact, Hours, Location Sections  here */
 #services-grp,
 #team-grp,
 #contact-grp,
@@ -214,7 +214,7 @@ hr {
     color: #313131;
 }
 
-/* Vision Section styles here */
+/* Vision Section  here */
 .vision-btn {
     background-color: rgba(25, 31, 52, 0.8);
     color: #fff;
@@ -233,18 +233,18 @@ hr {
     width: 100%;
 }
 
-/* Text About grp styles here */
+/* Text About grp  here */
 .txt-abt {
     max-width: 800px;
     margin-top: 20px;
 }
 
-/* Cards styles here */
+/* Cards  here */
 .card {
     background-color: #ffe6ac;
 }
 
-/* Vision Section Background Image Styles here*/
+/* Vision Section Background Image  here*/
 .vision {
     background-image: url("../images/vision.jpg");
     background-repeat: no-repeat;
@@ -252,7 +252,7 @@ hr {
     color: #fff;
 }
 
-/* Gtxt group Text styles here */
+/* Gtxt group Text  here */
 .gtxt {
     display: flex;
     flex-direction: column;
@@ -266,7 +266,7 @@ hr {
     background-color: #ffe6ac;
 }
 
-/* Contact Form styles here */
+/* Contact Form  here */
 #contact-form {
     font-size: 14px;
     padding: 20px;
@@ -278,7 +278,7 @@ hr {
     box-sizing: border-box;
 }
 
-/* Form Button styles here */
+/* Form Button  here */
 #send-btn {
     border: 1px solid #a66b00;
     font-size: 18px;
@@ -292,7 +292,7 @@ hr {
     background: #fff;
 }
 
-/* Hours Table styles here */
+/* Hours Table  here */
 .hours-table table {
     width: 95%;
     font-size: 14px;
@@ -311,13 +311,13 @@ hr {
     background-color: #ffe6ac;
 }
 
-/* Map styles here */
+/* gMap  here */
 .map iframe {
     width: 100%;
     padding: 20px;
 }
 
-/* Footer styles here */
+/* Footer  here */
 .dfooter {
     background-color: #313131;
     color: #c78c06;
@@ -447,8 +447,5 @@ Media Query for Screen Width Greater than 760px below
         grid-area: g3;
     }
 
-    .hours-table {
-        padding-bottom: -1000;
-
-    }
+   
 }
