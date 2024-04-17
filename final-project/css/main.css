@@ -198,9 +198,6 @@ hr {
     padding: 20px;
 }
 
-#services-title {
-    margin-left: 135px;
-}
 
 .services-btn {
     background-color: #313131;
@@ -373,6 +370,7 @@ Media Query for Screen Width Greater than 760px below
         flex: 1;
     }
 
+
     /* services css here */
     /* layout should be 2 rows 8 per row 
     as per video recording tip */
@@ -424,6 +422,10 @@ Media Query for Screen Width Greater than 760px below
         order: 2;
     }
 
+    #services-title {
+    margin-left: 135px;
+    }
+    
     /* 
     contact layout css here */
     .contact-outer {
